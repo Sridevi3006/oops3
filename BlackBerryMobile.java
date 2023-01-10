@@ -11,7 +11,7 @@ public class BlackBerryMobile implements Mobile {
 	}
 	public String  supports5G(String networkType) {
 		if(networkType.equals("5G")) {
-			return "it supports 2g,3g,4g,5g";
+			return "it supports 2G,3G,4G,5G";
 		}
 		else if(networkType.equals("4G")) {
 			return "it supports 2G,3G,4G";
